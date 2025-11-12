@@ -6,7 +6,7 @@ The goal is to simulate how a **Data Manager at Maersk** would track and improve
 
 ---
 
-## 📘 Dataset Overview
+## Dataset Overview
 The dataset contains ~10,000 shipment records with the following key columns:
 - **Warehouse_block** – Warehouse location  
 - **Mode_of_Shipment** – Ship / Flight / Road  
@@ -18,27 +18,27 @@ The dataset contains ~10,000 shipment records with the following key columns:
 
 ---
 
-## 🧩 Project Workflow
-**1️⃣ Data Cleaning (Excel)**  
+## Project Workflow
+**1️Data Cleaning (Excel)**  
 - Removed duplicates and handled missing values  
 - Standardized column formats  
 - Added derived metrics such as `Delay_Flag` and `Cost_Category`  
 
-**2️⃣ SQL Analysis**  
+**2️SQL Analysis**  
 - Queried shipment efficiency by transport mode and warehouse  
 - Calculated KPIs like On-Time %, Avg Cost, and Avg Rating  
 - Identified high-delay routes and low-rated shipments  
 
-**3️⃣ Visualization (Power BI)**  
+**3️Visualization (Power BI)**  
 - Built dashboard to display:
-  - 📊 On-Time Delivery %
-  - 💰 Average Shipping Cost
-  - ⭐ Average Customer Rating
-  - 🏭 Warehouse & Mode-wise performance  
+  - On-Time Delivery %
+  - Average Shipping Cost
+  - Average Customer Rating
+  - Warehouse & Mode-wise performance  
 
 ---
 
-## 📈 Key KPIs
+## Key KPIs
 - On-Time Delivery Rate  
 - Average Customer Rating  
 - Average Cost per Shipment  
@@ -46,7 +46,7 @@ The dataset contains ~10,000 shipment records with the following key columns:
 
 ---
 
-## 🧠 Insights
+## Insights
 - Air shipments show the **lowest delay percentage** but **highest cost**.  
 - Ship mode is the most used but has **higher delay rates**.  
 - Warehouses ‘F’ and ‘D’ show **best overall performance**.  
@@ -54,5 +54,5 @@ The dataset contains ~10,000 shipment records with the following key columns:
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 Excel | SQL | Power BI | Kaggle  
