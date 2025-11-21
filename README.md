@@ -1,8 +1,7 @@
 # E-Commerce-Shipping-Performance Project
 A short project to get hands-on how real world shipment is done, managed and track performance.
 
-This project analyzes **E-Commerce Shipping Data** from [Kaggle](https://www.kaggle.com/datasets/prachi13/customer-analytics) to evaluate shipping efficiency, customer satisfaction, and delivery performance.  
-The goal is to simulate how a **Data Manager at Maersk** would track and improve logistics KPIs using Excel, SQL, and Power BI.
+This project analyzes **E-Commerce Shipping Data** from [Kaggle](https://www.kaggle.com/datasets/prachi13/customer-analytics) to evaluate shipping efficiency, customer satisfaction, and delivery performance.
 
 ---
 
